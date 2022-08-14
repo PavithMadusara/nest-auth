@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "nest-auth": {
+      "type": "library",
+      "root": "libs/nest-auth",
+      "entryFile": "index",
+      "sourceRoot": "libs/nest-auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/nest-auth/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": false
+  }
+}
